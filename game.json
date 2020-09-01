@@ -1,0 +1,54 @@
+{
+    "passages": [
+      {
+        "text": "You are in the town square\n[Enter Saloon]\n[Enter Town Hall]\n[Enter Jail]\n[Enter Train Station]",
+        "name": "Town Square",
+        "pid": "1",
+        "position": {
+          "x": "412",
+          "y": "189"
+        }
+      },
+      {
+        "text": "Double-click this passage to edit it.",
+        "name": "Saloon",
+        "pid": "2",
+        "position": {
+          "x": "532",
+          "y": "189"
+        }
+      },
+      {
+        "text": "Double-click this passage to edit it.",
+        "name": "Town Hall",
+        "pid": "3",
+        "position": {
+          "x": "652",
+          "y": "189"
+        }
+      },
+      {
+        "text": "Double-click this passage to edit it.",
+        "name": "Jail",
+        "pid": "4",
+        "position": {
+          "x": "772",
+          "y": "189"
+        }
+      },
+      {
+        "text": "Double-click this passage to edit it.",
+        "name": "Train Station",
+        "pid": "5",
+        "position": {
+          "x": "891",
+          "y": "189"
+        }
+      }
+    ],
+    "name": "Wild Wild West",
+    "startnode": "1",
+    "creator": "Twine",
+    "creator-version": "2.3.9",
+    "ifid": "F011797A-EE8D-44AD-8245-5F21C43AA491"
+  }
