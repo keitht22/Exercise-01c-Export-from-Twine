@@ -1,48 +1,77 @@
 {
     "passages": [
       {
-        "text": "You are in the town square\n[Enter Saloon]\n[Enter Town Hall]\n[Enter Jail]\n[Enter Train Station]",
+        "text": "You are in the main square of the town of Fortune, the streets are pretty much deserted, except for a few of the townspeople.\n\nTo your left, is the saloon, The Crazy Uncle.\nTo your right, the County Jail, the Sheriff's name is Bill Barney.\nIn front of you, is the Town Hall, where Mayor Jeffrey H. Hann keeps his office; and the Honerable Judge James West resides over the County Court.\nDirectly behind you, the train station, which you can use to exit The Town of Fortune (THIS WILL EXIT THE GAME).\n\n[[Saloon]]\n[[Town Hall]] \n[[Jail]] \n[[Train Station]] ",
+        "links": [
+          {
+            "name": "Saloon",
+            "link": "Saloon",
+            "broken": true
+          },
+          {
+            "name": "Town Hall",
+            "link": "Town Hall",
+            "broken": true
+          },
+          {
+            "name": "Jail",
+            "link": "Jail",
+            "broken": true
+          },
+          {
+            "name": "Train Station",
+            "link": "Train Station",
+            "broken": true
+          }
+        ],
         "name": "Town Square",
         "pid": "1",
         "position": {
-          "x": "412",
-          "y": "189"
+          "x": "710",
+          "y": "346"
         }
       },
       {
-        "text": "Double-click this passage to edit it.",
-        "name": "Saloon",
+        "text": "Patrons are seated at the bar and several tables. Most are drinking beer from glasses, but several are 'enjoying' the locally distilled whiskey.",
+        "name": " Saloon",
         "pid": "2",
         "position": {
-          "x": "532",
-          "y": "189"
+          "x": "490",
+          "y": "347"
         }
       },
       {
-        "text": "Double-click this passage to edit it.",
-        "name": "Town Hall",
+        "text": "The Mayor's Secretary is seated at her desk to the left of the entrance, the door to his office is to the right.\n\nAcross from the entrance, through a set of double doors is the county court.",
+        "name": " Town Hall",
         "pid": "3",
         "position": {
-          "x": "652",
-          "y": "189"
+          "x": "764",
+          "y": "161"
         }
       },
       {
-        "text": "Double-click this passage to edit it.",
-        "name": "Jail",
+        "text": "The county jail, the Sheriff is holding the local drunk until he sobers up.\n[[Town Square]] ",
+        "links": [
+          {
+            "name": "Town Square",
+            "link": "Town Square",
+            "pid": "1"
+          }
+        ],
+        "name": " Jail",
         "pid": "4",
         "position": {
-          "x": "772",
-          "y": "189"
+          "x": "1009",
+          "y": "339"
         }
       },
       {
-        "text": "Double-click this passage to edit it.",
-        "name": "Train Station",
+        "text": "ARE YOU SURE YOU'D LIKE TO LEAVE?\n\n",
+        "name": " Train Station",
         "pid": "5",
         "position": {
-          "x": "891",
-          "y": "189"
+          "x": "761",
+          "y": "499"
         }
       }
     ],
